@@ -16,12 +16,16 @@ body {
   margin: auto 2.4rem;
 }
 
+.border {
+  border-bottom: 1px solid #dfe1e6;
+}
+
 /* NAVBAR */
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 2.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .nav-logo {
@@ -106,6 +110,7 @@ body {
   color: #172b4d;
   font-size: 3.2rem;
   font-weight: 700;
+  margin-right: 1rem;
 }
 
 .project-details {
@@ -139,6 +144,16 @@ body {
   justify-content: center;
 }
 
+.languages-elements li {
+  list-style-type: none;
+  background-color: #f7f7f9;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
 .project-details li:first-child {
   list-style: none;
   color: #344563;
@@ -150,15 +165,62 @@ body {
   color: #396df2;
   font-size: 1.7rem;
   border: 1px solid #6070ff;
-  border-radius: 8px;
-  padding: 12px 16px;
+  border-radius: 0.8rem;
+  padding: 1.2rem 1.6rem;
   align-self: flex-start;
 }
 
 /* ABOUT ME */
+
 .secondary-header {
   color: #172b4d;
   font-weight: 700;
   font-size: 4rem;
   margin-bottom: 1rem;
+}
+
+.skillset {
+  margin-bottom: 12.8rem;
+}
+
+.skillset-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3.2rem;
+}
+
+.skillset-heading {
+  font-size: 2rem;
+  font-weight: 500;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.down-sign {
+  color: #acb7c3;
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-right: 1.8rem;
+}
+
+.languages-elements {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.frontend-logo {
+  width: 4.8rem;
+  height: 4.8rem;
+}
+
+.js-logo {
+  border-radius: 5rem;
+}
+
+.languages-elements li p {
+  color: #253858;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
