@@ -181,6 +181,7 @@ body {
 
 .skillset {
   margin-bottom: 12.8rem;
+  list-style: none;
 }
 
 .skillset-title {
@@ -213,6 +214,7 @@ body {
 .frontend-logo {
   width: 4.8rem;
   height: 4.8rem;
+  list-style: none;
 }
 
 .js-logo {
