@@ -45,6 +45,7 @@ body {
   flex-direction: column;
   gap: 2.4rem;
 }
+
 .primary-header {
   color: #172b4d;
   font-size: 4rem;
