@@ -10,10 +10,6 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background: url(images/header-background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0 7rem;
 }
 
 .container {
@@ -44,6 +40,12 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
+  background: url(images/header-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2.8rem;
+  height: 100vh;
+  background-position: center;
 }
 
 .primary-header {
@@ -60,7 +62,11 @@ body {
   line-height: 2.4rem;
 }
 
-.secondary-header {
+.social-media {
+  margin-bottom: 3.4rem;
+}
+
+.social-header {
   color: #7f8cff;
   font-size: 1.6rem;
   font-weight: 500;
@@ -72,4 +78,87 @@ body {
   display: flex;
   gap: 2rem;
   align-items: center;
+}
+
+/* WORKS */
+.works {
+  background-color: #f7f7f7;
+  padding: 12.8rem 0 4.8rem 0;
+  margin-bottom: 4.8rem;
+}
+
+.projects {
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 1.6rem;
+  padding: 1.6rem;
+  margin-bottom: 12rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.project-img {
+  border-radius: 0.8rem;
+}
+
+.tertiary-heading {
+  color: #172b4d;
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.project-details {
+  color: #7a869a;
+  font-size: 1.3rem;
+  display: flex;
+  gap: 3.2rem;
+}
+
+.project-description {
+  color: #344563;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+}
+
+.project-lang {
+  display: flex;
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.project-lang li {
+  background: #ebebff;
+  color: #6070ff;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  padding: 0.4rem 1.2rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-details li:first-child {
+  list-style: none;
+  color: #344563;
+  font-weight: 600;
+}
+
+.project-btn {
+  background: transparent;
+  color: #396df2;
+  font-size: 1.7rem;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  padding: 12px 16px;
+  align-self: flex-start;
+}
+
+/* ABOUT ME */
+.secondary-header {
+  color: #172b4d;
+  font-weight: 700;
+  font-size: 4rem;
+  margin-bottom: 1rem;
 }
