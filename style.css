@@ -87,8 +87,11 @@ body {
 /* WORKS */
 .works {
   background-color: #f7f7f7;
-  padding: 12.8rem 0 4.8rem 0;
-  margin-bottom: 4.8rem;
+  padding: 12.8rem 0 2.8rem 0;
+  margin-bottom: 2.8rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4.8rem;
 }
 
 .projects {
@@ -104,6 +107,7 @@ body {
 
 .project-img {
   border-radius: 0.8rem;
+  width: 100%;
 }
 
 .tertiary-heading {
@@ -160,7 +164,7 @@ body {
   font-weight: 600;
 }
 
-.project-btn {
+.btn {
   background: transparent;
   color: #396df2;
   font-size: 1.7rem;
@@ -168,9 +172,30 @@ body {
   border-radius: 0.8rem;
   padding: 1.2rem 1.6rem;
   align-self: flex-start;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background-color: #6070ff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn:active {
+  background-color: #2230d2;
+}
+
+.btn:disabled {
+  color: #5e6c84;
+  border: 1px solid #e5e5e5;
 }
 
 /* ABOUT ME */
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
 
 .secondary-header {
   color: #172b4d;
