@@ -25,28 +25,6 @@
   - [🙏 Acknowledgments ](#-acknowledgments-a-nameacknowledgementsa)
   - [📝 License ](#-license-a-namelicensea)
 
-<!-- /code_chunk_output -->
-
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
-
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 Portfolio <a name="about-project"></a>
@@ -73,6 +51,9 @@ This website made for mobile version only.
 
 ### Key Features <a name="key-features"></a>
 
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 - **Great and sample design**
 - **Responsive for mobile**
@@ -139,8 +120,8 @@ Open the index file in your browser or live server
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Navbar**
-- [ ] **Contact**
+- [ ] **Desktop Version**
+- [ ] **Dynamic features**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
