@@ -266,3 +266,11 @@ html {
   flex-direction: column;
   gap: 5.2rem;
 }
+
+.contact-title {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
