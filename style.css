@@ -259,3 +259,10 @@ html {
   background-size: auto 88%;
   background-position: right;
 }
+
+.contact-container {
+  padding: auto 2.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5.2rem;
+}
