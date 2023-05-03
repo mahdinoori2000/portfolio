@@ -300,3 +300,22 @@ html {
   color: #172b4d;
   font-size: 1.7rem;
 }
+
+.contact-message {
+  width: 32.7rem;
+  height: 17.5rem;
+  color: #172b4d;
+  font-size: 1.5rem;
+  border-radius: 0.8rem;
+  padding: 1.5rem 3.8rem 1.5rem 1.6rem;
+}
+
+.contact-message::placeholder {
+  color: #b3bac5;
+  font-size: 1.5rem;
+}
+
+.contact-input:focus,
+.contact-message:focus {
+  outline-color: #396df2;
+}
