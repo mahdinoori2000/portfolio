@@ -274,3 +274,9 @@ html {
   text-align: center;
   margin-bottom: 1.2rem;
 }
+
+.contact-detail {
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+}
