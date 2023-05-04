@@ -29,13 +29,15 @@
 
 # 📖 Portfolio <a name="about-project"></a>
 
-This website made for mobile version only.
+Personal porftfolio website.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
   <summary>Client</summary>
   <ul>
     <li><a href="#">HTML</a></li>
@@ -56,7 +58,7 @@ This website made for mobile version only.
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 - **Great and sample design**
-- **Responsive for mobile**
+- **Responsive for All screen sizes**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -120,7 +122,7 @@ Open the index file in your browser or live server
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Desktop Version**
+- [ ] **Functionality to buttons**
 - [ ] **Dynamic features**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
