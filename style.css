@@ -338,3 +338,32 @@ html {
   color: #fff;
   transition: 0.3s;
 }
+
+@media screen and (min-width: 768px) {
+  .container {
+    margin: auto 10%;
+  }
+  /* NAVBAR SECTION  */
+  .navbar {
+    padding: 3.2rem 8.8rem;
+  }
+  .nav-btn {
+    display: none;
+  }
+  .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 3.2rem;
+  }
+  .nav-list a:link,
+  .nav-list a:visited {
+    text-decoration: none;
+    color: #344563;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .nav-list a:hover,
+  .nav-list a:active {
+    border-bottom: 0.3rem solid #6070ff;
+  }
+
