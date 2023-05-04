@@ -51,15 +51,17 @@ html {
   background: url(images/header-background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 2.8rem;
-  background-position: 100% auto;
+  height: 100vh;
+  background-position: 100% 9rem;
+  padding-bottom: 2rem;
+  margin-bottom: 12.8rem;
 }
 
 .headline-container {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
+  padding: 1rem;
 }
 
 .primary-header {
@@ -404,11 +406,13 @@ html {
   .headline {
     background: url(images/Desktop/Headline-bg.svg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: auto auto;
+    background-size: contain;
+    background-position: 100% 10rem;
     margin: 6.4rem 4.8rem;
   }
-
+  .primary-header {
+    margin-top: 30%;
+  }
   /* PROJECT SECTION  */
 
   .projects {
@@ -442,18 +446,9 @@ html {
     gap: 1.8rem;
   }
 
-  /* CONTACT SECTION  */
-  .contact {
-    background-image: url(images/Desktop/contact-form-background-shapes.svg);
-  }
-
-  .contact-desc {
-    margin: auto 20%;
-  }
-
   /* ABOUT SECTION  */
   .about {
-    grid-template-columns: 1fr 1.1fr;
+    grid-template-columns: 4fr 6fr;
   }
 
   .about-container {
@@ -462,5 +457,19 @@ html {
 
   .skillset {
     margin-top: -2rem;
+  }
+
+  /* CONTACT SECTION  */
+  .contact {
+    background-image: url(images/Desktop/contact-form-background-shapes.svg);
+  }
+
+  .contact-desc {
+    margin: auto 25%;
+  }
+  .contact-input,
+  .contact-message {
+    width: 44.7rem;
+    border-radius: 0.2rem;
   }
 }
