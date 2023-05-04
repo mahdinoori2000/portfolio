@@ -410,9 +410,11 @@ html {
     background-position: 100% 10rem;
     margin: 6.4rem 4.8rem;
   }
+
   .primary-header {
     margin-top: 30%;
   }
+
   /* PROJECT SECTION  */
 
   .projects {
@@ -467,6 +469,7 @@ html {
   .contact-desc {
     margin: auto 25%;
   }
+
   .contact-input,
   .contact-message {
     width: 44.7rem;
