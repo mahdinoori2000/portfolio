@@ -30,6 +30,9 @@ html {
   background-color: #fbfbfb;
 }
 
+.nav-list {
+  display: none;
+}
 .nav-logo {
   color: #6070ff;
   font-size: 1.8rem;
@@ -43,25 +46,28 @@ html {
 
 /* HEADLINE  */
 .headline {
-  display: flex;
-  flex-direction: column;
-  gap: 2.4rem;
   background: url(images/header-background.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 2.8rem;
-  height: 100vh;
-  background-position: center;
+  background-position: 100% auto;
 }
-
+.headline-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
 .primary-header {
   color: #172b4d;
   font-size: 4rem;
   font-weight: 700;
   line-height: 5.2rem;
-  margin-top: 8rem;
+  margin-top: 20rem;
 }
-
+.primary-headre span {
+  display: block;
+}
 .headline-description {
   color: #344563;
   font-size: 1.6rem;
@@ -90,12 +96,12 @@ html {
 .works {
   background-color: #f7f7f7;
   padding: 12.8rem 0 2.8rem 0;
-  margin-bottom: 2.8rem;
+  padding-bottom: 12.8rem;
+  margin-bottom: 12.8rem;
   display: grid;
   grid-template-columns: 1fr;
-  gap: 4.8rem;
+  gap: 12.8rem;
 }
-
 .projects {
   background-color: #fff;
   border: 1px solid #dfe1e6;
@@ -111,7 +117,11 @@ html {
   border-radius: 0.8rem;
   width: 100%;
 }
-
+.project-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
 .tertiary-heading {
   color: #172b4d;
   font-size: 3.2rem;
@@ -130,6 +140,7 @@ html {
   color: #344563;
   font-size: 1.5rem;
   line-height: 2.4rem;
+  padding-right: 10%;
 }
 
 .project-lang {
@@ -150,16 +161,6 @@ html {
   justify-content: center;
 }
 
-.languages-elements li {
-  list-style-type: none;
-  background-color: #f7f7f9;
-  padding: 1rem;
-  border-radius: 0.8rem;
-  display: flex;
-  align-items: center;
-  gap: 2.4rem;
-}
-
 .project-details li:first-child {
   list-style: none;
   color: #344563;
@@ -175,6 +176,7 @@ html {
   padding: 1.2rem 1.6rem;
   align-self: flex-start;
   font-weight: 500;
+  transition: 0.3s;
 }
 
 .btn:hover {
@@ -194,9 +196,10 @@ html {
 
 /* ABOUT ME */
 .about {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 4.8rem;
+  background-color: #fff;
 }
 
 .secondary-header {
@@ -206,9 +209,12 @@ html {
   margin-bottom: 1rem;
 }
 
+.headline-description {
+  padding-bottom: 1rem;
+}
 .skillset {
-  margin-bottom: 12.8rem;
   list-style: none;
+  margin-bottom: 12.8rem;
 }
 
 .skillset-title {
@@ -237,7 +243,15 @@ html {
   flex-direction: column;
   gap: 1.2rem;
 }
-
+.languages-elements li {
+  list-style-type: none;
+  background-color: #f7f7f9;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
 .frontend-logo {
   width: 4.8rem;
   height: 4.8rem;
