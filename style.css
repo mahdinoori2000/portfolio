@@ -367,3 +367,60 @@ html {
     border-bottom: 0.3rem solid #6070ff;
   }
 
+  /* HEADLINE SECTION  */
+  .headline {
+    background: url(images/Desktop/Headline-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: auto auto;
+    margin: 6.4rem 4.8rem;
+  }
+  /* PROJECT SECTION  */
+
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4.8rem;
+    padding: 2.8rem;
+  }
+  .projects:nth-child(even) > .project-img {
+    order: 2;
+  }
+  .project-img {
+    align-self: center;
+  }
+
+  .btn {
+    justify-self: left;
+  }
+
+  /* ABOUT SECTION  */
+  .languages-elements {
+    flex-direction: row;
+  }
+  .languages-elements li {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 12rem;
+    gap: 1.8rem;
+  }
+
+  /* CONTACT SECTION  */
+  .contact {
+    background-image: url(images/Desktop/contact-form-background-shapes.svg);
+  }
+  .contact-desc {
+    margin: auto 20%;
+  }
+
+  /* ABOUT SECTION  */
+  .about {
+    grid-template-columns: 1fr 1.1fr;
+  }
+  .about-container {
+    margin-bottom: 12.8rem;
+  }
+  .skillset {
+    margin-top: -2rem;
+  }
+}
