@@ -395,11 +395,28 @@ html {
     color: #344563;
     font-size: 1.5rem;
     font-weight: 500;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav-list a::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -7px;
+    background-color: #6070ff;
+    transition: 0.3s;
   }
 
   .nav-list a:hover,
   .nav-list a:active {
-    border-bottom: 0.3rem solid #6070ff;
+    color: #6070ff;
+  }
+
+  .nav-list a:hover::after {
+    width: 100%;
   }
 
   /* HEADLINE SECTION  */
@@ -426,9 +443,19 @@ html {
 
   .project-img {
     align-self: center;
+    transition: all 0.5s ease-in-out;
   }
 
-  .projects:nth-child(even) > .project-img {
+  .overflow {
+    overflow: hidden;
+  }
+
+  .project-img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+
+  .projects:nth-child(even) > .overflow {
     order: 2;
   }
 
