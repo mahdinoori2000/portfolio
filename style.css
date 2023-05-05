@@ -398,6 +398,7 @@ html {
     position: relative;
     transition: all 0.3s ease-in-out;
   }
+
   .nav-list a::after {
     content: "";
     position: absolute;
@@ -408,13 +409,16 @@ html {
     background-color: #6070ff;
     transition: 0.3s;
   }
+
   .nav-list a:hover,
   .nav-list a:active {
     color: #6070ff;
   }
+
   .nav-list a:hover::after {
     width: 100%;
   }
+
   /* HEADLINE SECTION  */
   .headline {
     background: url(images/Desktop/Headline-bg.svg);
@@ -445,6 +449,7 @@ html {
   .overflow {
     overflow: hidden;
   }
+
   .project-img:hover {
     transform: scale(1.2);
     cursor: pointer;
