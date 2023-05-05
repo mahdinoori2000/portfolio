@@ -426,6 +426,15 @@ html {
 
   .project-img {
     align-self: center;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .overflow {
+    overflow: hidden;
+  }
+  .project-img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
   }
 
   .projects:nth-child(even) > .project-img {
