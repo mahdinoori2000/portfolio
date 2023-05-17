@@ -8,6 +8,7 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  scroll-padding-top: 6.4rem;
 }
 
 .container {
@@ -16,6 +17,16 @@ html {
 
 .border {
   border-bottom: 1px solid #dfe1e6;
+}
+/* Add helper classes */
+.overflow {
+  overflow: hidden;
+}
+.hidden {
+  display: none;
+}
+.opacity {
+  opacity: 0;
 }
 
 /* NAVBAR */
