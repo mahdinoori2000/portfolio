@@ -67,11 +67,6 @@ html {
   color: #6070ff;
 }
 
-.close-icon {
-  color: white;
-  width: 2.4rem;
-}
-
 /* HEADLINE  */
 .headline {
   background: url(images/header-background.png);
@@ -242,6 +237,7 @@ html {
   color: #5e6c84;
   border: 1px solid #e5e5e5;
 }
+
 .nav-mobile {
   top: 0;
   left: 0;
@@ -252,6 +248,7 @@ html {
   backdrop-filter: blur(10px);
   transition: all 0.3s ease-in-out;
 }
+
 .mobile-nav-list {
   position: absolute;
   left: 10%;
@@ -270,10 +267,12 @@ html {
   font-weight: 500;
   color: #fff;
 }
+
 .mobile-nav-list a:hover,
 .mobile-nav-list a:active {
   text-decoration: underline;
 }
+
 /* ABOUT ME */
 .about {
   display: grid;
