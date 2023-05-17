@@ -242,7 +242,38 @@ html {
   color: #5e6c84;
   border: 1px solid #e5e5e5;
 }
+.nav-mobile {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  align-items: flex-start;
+  background-color: rgba(96, 112, 255, 0.7);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease-in-out;
+}
+.mobile-nav-list {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 2.8rem;
+  list-style-type: none;
+  margin-top: 1.8rem;
+}
 
+.mobile-nav-list a:link,
+.mobile-nav-list a:visited {
+  text-decoration: none;
+  font-size: 3.2rem;
+  font-weight: 500;
+  color: #fff;
+}
+.mobile-nav-list a:hover,
+.mobile-nav-list a:active {
+  text-decoration: underline;
+}
 /* ABOUT ME */
 .about {
   display: grid;
