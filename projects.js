@@ -82,3 +82,88 @@ projects.forEach((project, index) => {
   template += code;
 });
 project.innerHTML = template;
+
+// POPUP window SECTION
+
+const popupContainer = document.createElement('div');
+popupContainer.classList.add('popup-container');
+
+function createPopup(project) {
+  let details = '';
+  project.details.forEach((detail) => {
+    details += `<li>${detail}</li>`;
+  });
+
+  let technologies = '';
+  project.technologies.forEach((technology) => {
+    technologies += `<li>${technology}</li>`;
+  });
+
+  const popupTemp = `
+    <div class="popup">
+      <div class="projects container popup-container">
+        <div class="project-title">
+          <h3 class="tertiary-heading">${project.name}</h3>
+          <button class="popup-close-btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="popup-close-icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              ></path>
+            </svg>
+          </button>
+        </div>
+        <ul class="project-details">
+          ${details}
+        </ul>
+        <div class="overflow">
+          <img class="project-img popup-img" src="${project.image}" alt="" />
+        </div>
+        <div class="project-detail popup-details">
+          <p class="project-description popup-description">
+            ${project.description}
+          </p>
+          <div class="popup-technology">
+          <ul class="project-lang">
+            ${technologies}
+          </ul>
+          <div class="check-btn">
+            <button class="btn popup-btn">
+              <span>See live</span>
+              <a href="${project.liveLink}" target="_blank"><img class="popup-logo" src="images/see-live.svg" alt="" /></a>
+            </button>
+            <button class="btn popup-btn">
+              <span>See source</span>
+              <a href="${project.sourceLink}" target="_blank"><img class="popup-logo" src="images/source-logo.svg" alt=""></a>
+            </button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+  popupContainer.innerHTML = popupTemp;
+  document.body.appendChild(popupContainer);
+}
+const overlay = document.querySelector('.popup');
+const seeProjectEl = document.querySelectorAll("[id^='see-project-']");
+seeProjectEl.forEach((button, index) => {
+  button.addEventListener('click', () => {
+    const project = projects[index];
+    createPopup(project);
+    const popupClose = document.querySelector('.popup-close-btn');
+    const closeModal = () => {
+      popupContainer.remove();
+    };
+    popupClose.addEventListener('click', closeModal);
+    overlay.addEventListener('click', closeModal);
+  });
+});
