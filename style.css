@@ -520,7 +520,10 @@ html {
   color: #fff;
   transition: 0.3s;
 }
-
+#error-message {
+  font-size: 1.8rem;
+  color: red;
+}
 @media screen and (min-width: 768px) {
   .container {
     margin: auto 10%;
