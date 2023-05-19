@@ -335,14 +335,9 @@ html {
   font-size: 1.5rem;
 }
 
-.popup-btn:hover {
-  background: none;
-  color: #396df2;
-}
-
+.popup-btn:hover a .popup-logo,
 .popup-btn:active {
-  box-shadow: 0 1px 5px #333;
-  transition: 0s;
+  fill: #fff;
 }
 
 .popup-logo {
