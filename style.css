@@ -341,6 +341,7 @@ html {
 .line {
   display: flex;
   position: relative;
+  gap: 1rem;
 }
 .line::after {
   content: '';
