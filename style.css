@@ -180,7 +180,7 @@ html {
 .project-lang {
   display: flex;
   gap: 0.8rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .project-lang li {
@@ -330,19 +330,19 @@ html {
   font-size: 1.2rem;
   padding: 0.6rem 1rem;
 }
-.popup-logo {
-  width: 2.4rem;
-}
+
 .check-btn {
   display: flex;
   gap: 1rem;
   font-size: 1.5rem;
 }
+
 .line {
   display: flex;
   position: relative;
   gap: 1rem;
 }
+
 .line::after {
   content: '';
   position: absolute;
@@ -352,14 +352,15 @@ html {
   top: -10px;
   left: 0;
 }
-.popup-btn:hover a .popup-logo,
-.popup-btn:active {
-  fill: #fff;
-}
 
 .popup-logo {
   display: flex;
   align-items: center;
+}
+
+.popup-btn:hover a .popup-logo,
+.popup-btn:active {
+  fill: #fff;
 }
 
 .project-lang,
@@ -631,7 +632,7 @@ html {
 
   .popup-details {
     flex-direction: row;
-    gap: 0;
+    gap: 0.3rem;
     padding-top: 2rem;
   }
 
