@@ -180,7 +180,7 @@ html {
 .project-lang {
   display: flex;
   gap: 0.8rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .project-lang li {
@@ -338,7 +338,19 @@ html {
   gap: 1rem;
   font-size: 1.5rem;
 }
-
+.line {
+  display: flex;
+  position: relative;
+}
+.line::after {
+  content: '';
+  position: absolute;
+  height: 0.1rem;
+  width: 100%;
+  background-color: #e9e9e9;
+  top: -10px;
+  left: 0;
+}
 .popup-btn:hover a .popup-logo,
 .popup-btn:active {
   fill: #fff;

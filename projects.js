@@ -136,6 +136,7 @@ function createPopup(project) {
             ${technologies}
           </ul>
           <div class="check-btn">
+          <div class="line">
             <button class="btn popup-btn">
               <span>See live</span>
               <a href="${project.liveLink}" target="_blank"> <svg
@@ -164,6 +165,7 @@ function createPopup(project) {
               </svg>
               </a>
             </button>
+            </div>
           </div>
           </div>
         </div>
