@@ -5,13 +5,13 @@ const project = document.querySelector('#work');
 const projects = [
   {
     image: 'images/projects/todo-picture3.JPG',
-    name: 'Tonic',
-    details: ['CONOPY', 'Back End Dev', '2015'],
+    name: 'ToDo-List',
+    details: ['Front-end', 'Microverse', '2023'],
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required. Lorem ipsum dolor sit amet consectetur.',
+      'ToDo List is a small website made with JavaScript that allows you to manage your daily tasks. You can easily add, remove, and check off tasks as you complete them.',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveLink: '',
-    sourceLink: '',
+    liveLink: 'https://mahdinoori2000.github.io/to-do-list/',
+    sourceLink: 'https://github.com/mahdinoori2000/to-do-list',
   },
   {
     image: 'images/works/github-shot.jpg',
