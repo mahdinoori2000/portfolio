@@ -4,7 +4,7 @@ const project = document.querySelector('#work');
 // OBJECT FOR STORING PROJECTS DATA
 const projects = [
   {
-    image: 'images/works/twitter-shot.jpg',
+    image: 'images/projects/todo-picture3.JPG',
     name: 'Tonic',
     details: ['CONOPY', 'Back End Dev', '2015'],
     description:
