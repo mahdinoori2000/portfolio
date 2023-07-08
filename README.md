@@ -59,6 +59,7 @@ Personal porftfolio website.
 
 - **Great and sample design**
 - **Responsive for All screen sizes**
+- **All Projects about my work**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
