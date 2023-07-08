@@ -322,7 +322,9 @@ html {
   color: #67798e;
 }
 
-.popup-btn {
+.popup-btn a{
+  color: #6070ff;
+  text-decoration: none;
   display: flex;
   gap: 0.4rem;
   align-items: center;
@@ -359,13 +361,15 @@ html {
 }
 
 .popup-btn:hover a .popup-logo,
+.popup-btn a:hover, 
 .popup-btn:active {
   fill: #fff;
+  color: #fff;
 }
 
 .project-lang,
 .check-btn {
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 /* ABOUT ME */
