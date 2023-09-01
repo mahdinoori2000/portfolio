@@ -221,6 +221,7 @@ html {
   align-self: flex-start;
   font-weight: 500;
   transition: 0.3s;
+  text-decoration: none;
 }
 
 .btn:hover {
