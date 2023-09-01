@@ -4,6 +4,36 @@ const project = document.querySelector('#work');
 // OBJECT FOR STORING PROJECTS DATA
 const projects = [
   {
+    image: 'images/works/rest-countries.png',
+    name: 'Rest Countries',
+    details: ['React', 'Front-end', '2023'],
+    description:
+      'REST Countriesis a mobile-friendly web application that lets you effortlessly explore detailed information about countries worldwide. Whether you\'re a traveler, student, or just curious, REST Countries is your passport to disc.',
+    technologies: ['React', 'Redux', 'JavaScript', 'Render'],
+    liveLink: 'https://development--classy-griffin-142f85.netlify.app/',
+    sourceLink: 'https://github.com/mahdinoori2000/react-solo-capstone',
+  },
+  {
+    image: 'images/works/book-store.png',
+    name: 'Book Store',
+    details: ['Book Store', 'front-end Dev', '2023'],
+    description:
+      'Book-Store is a web application developed using React. It has a feature to add book and author of the book. Also there is a button that you can remove a book.',
+    technologies: ['Redux', 'React', 'API'],
+    liveLink: 'https://book-store-2g5s.onrender.com/',
+    sourceLink: 'https://github.com/mahdinoori2000/bookstore',
+  },
+  {
+    image: 'images/works/math-magicians.png',
+    name: 'Math Magicians',
+    details: ['Math Magicians', 'font-end Dev', '2023'],
+    description:
+      'Math-Magicians is a web application developed using React. It features a calculator that allows users to perform various mathematical operations. Additionally, the application showcases an engaging quote section that displays randomly generated quotes obtained from an API.',
+    technologies: ['React', 'JavaScript', 'API'],
+    liveLink: 'https://math-magicians-ewqi.onrender.com/calculator',
+    sourceLink: 'https://github.com/mahdinoori2000/Math-Magicians',
+  },
+  {
     image: 'images/projects/todo-picture3.JPG',
     name: 'ToDo-List',
     details: ['Front-end', 'Microverse', '2023'],
@@ -12,36 +42,6 @@ const projects = [
     technologies: ['HTML', 'CSS', 'JavaScript'],
     liveLink: 'https://mahdinoori2000.github.io/to-do-list/',
     sourceLink: 'https://github.com/mahdinoori2000/to-do-list',
-  },
-  {
-    image: 'images/works/github-shot.jpg',
-    name: 'Multi-Post Stories',
-    details: ['Multi-Post Stories', 'Back End Dev', '2015'],
-    description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required. Lorem ipsum dolor sit amet consectetur.',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveLink: '',
-    sourceLink: '',
-  },
-  {
-    image: 'images/works/shot3.png',
-    name: 'Tonic',
-    details: ['Tonic', 'Back End Dev', '2015'],
-    description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required. Lorem ipsum dolor sit amet consectetur.',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveLink: '',
-    sourceLink: '',
-  },
-  {
-    image: 'images/works/twitter-shot.jpg',
-    name: 'Multi-Post Stories',
-    details: ['Multi-Post Stories', 'Back End Dev', '2015'],
-    description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required. Lorem ipsum dolor sit amet consectetur.',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveLink: '',
-    sourceLink: '',
   },
 ];
 
