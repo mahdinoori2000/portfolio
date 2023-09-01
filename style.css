@@ -260,6 +260,17 @@ html {
   margin-top: 1.8rem;
 }
 
+.popup-btn a {
+  color: #6070ff;
+  text-decoration: none;
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  padding: 0.6rem 1rem;
+}
+
 .mobile-nav-list a:link,
 .mobile-nav-list a:visited {
   text-decoration: none;
@@ -322,17 +333,6 @@ html {
   color: #67798e;
 }
 
-.popup-btn a{
-  color: #6070ff;
-  text-decoration: none;
-  display: flex;
-  gap: 0.4rem;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.2rem;
-  padding: 0.6rem 1rem;
-}
-
 .check-btn {
   display: flex;
   gap: 1rem;
@@ -361,7 +361,7 @@ html {
 }
 
 .popup-btn:hover a .popup-logo,
-.popup-btn a:hover, 
+.popup-btn a:hover,
 .popup-btn:active {
   fill: #fff;
   color: #fff;
