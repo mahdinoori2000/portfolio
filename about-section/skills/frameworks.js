@@ -8,29 +8,39 @@ const frameElement = frameworksParent[1];
 // Adding framework Elements
 const frameworks = [
   {
-    languageName: 'JavaScript',
+    frameworkName: 'React',
     class: 'frontend-logo js-logo',
-    src: 'images/logos/js-logo.png',
+    src: 'images/logos/react-logo.png',
   },
   {
-    languageName: 'TypeScript',
+    frameworkName: 'Next.js',
     class: 'frontend-logo js-logo',
-    src: 'images/logos/typescript-logo.svg',
+    src: 'images/logos/next-logo.jpg',
   },
   {
-    languageName: 'Ruby',
+    frameworkName: 'Redux',
     class: 'frontend-logo js-logo',
-    src: 'images/logos/ruby-logo.png',
+    src: 'images/logos/redux-logo.svg',
   },
   {
-    languageName: 'HTML',
+    frameworkName: 'Ruby on Rails',
     class: 'frontend-logo',
-    src: 'images/logos/html-logo.png',
+    src: 'images/logos/ruby-on-rails-logo.png',
   },
   {
-    languageName: 'CSS',
+    frameworkName: 'Tailwind CSS',
     class: 'frontend-logo',
-    src: 'images/logos/css-logo.png',
+    src: 'images/logos/tailwind-logo.png',
+  },
+  {
+    frameworkName: 'Bootstrap',
+    class: 'frontend-logo',
+    src: 'images/logos/bootstrap-logo.png',
+  },
+  {
+    frameworkName: 'Sass',
+    class: 'frontend-logo',
+    src: 'images/logos/sass-logo.png',
   },
 ];
 
@@ -46,7 +56,7 @@ frameworks.forEach((framework) => {
         alt="${framework.name} Logo"
       />
     </span>
-    <p>${framework.languageName}</p>
+    <p>${framework.frameworkName}</p>
   </li>
       `;
   frameTemplate += frameCode;
