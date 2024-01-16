@@ -404,10 +404,10 @@ html {
   padding-bottom: 2rem;
 }
 
-.button { 
-      background: none;
-      border: none;
-      cursor: pointer;
+.button {
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 .down-sign {
@@ -424,7 +424,7 @@ html {
   flex-wrap: wrap;
   gap: 1.2rem;
   transition: all 1s ease-in-out;
-  transition: all 5s ease-in-out; 
+  transition: all 5s ease-in-out;
 }
 
 .frontend-logo {
